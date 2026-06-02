@@ -29,28 +29,26 @@ The dataset contains 284,807 transactions, including 492 fraudulent transactions
 The project implementation and methodology were developed using IBM SPSS Modeler. Additional inspiration and learning resources included Kaggle notebooks and fraud detection tutorials, including:
 https://www.kaggle.com/code/gpreda/credit-card-fraud-detection-predictive-models/notebook
 
+## Technologies Used
+- IBM SPSS Modeler
+- XGBoost
+- SMOTE
+- CHAID Decision Tree
+- Machine Learning
+- Data Analytics
+
+## Results
+- Accuracy: 85.4%
+- Risk-based transaction prioritization
+- Feature importance analysis
+- Fraud prediction and investigation support system
+
+## Future Enhancements
+- Real-time fraud detection
+- SHAP explainability integration
+- Kafka streaming deployment
+- Federated learning
+- Graph-based fraud network analysis
+
 ## Note
 Custom test datasets used for evaluation and experimentation were generated with AI-assisted support and are not part of the original Kaggle dataset.
-
-For project evaluation and experimentation, custom test datasets were generated with AI-assisted support to simulate additional transaction scenarios.
-
-Technologies Used
-IBM SPSS Modeler
-XGBoost
-SMOTE
-CHAID Decision Tree
-Machine Learning
-Data Analytics
-
-Results
-Accuracy: 85.4%
-Risk-based transaction prioritization
-Feature importance analysis
-Fraud prediction and investigation support system
-
-Future Enhancements
-Real-time fraud detection
-SHAP explainability integration
-Kafka streaming deployment
-Federated learning
-Graph-based fraud network analysis
