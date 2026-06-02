@@ -17,8 +17,22 @@ Low Risk
 CHAID model for interpretability and feature importance analysis
 Visual implementation using IBM SPSS Modeler following CRISP-DM methodology
 
-Dataset
-The project uses the Kaggle Credit Card Fraud Detection dataset containing 284,807 real-world transactions, including 492 fraudulent cases.
+## Dataset
+
+This project is based on the Credit Card Fraud Detection dataset published by the Machine Learning Group at Université Libre de Bruxelles (ULB) and available on Kaggle.
+
+Dataset:
+https://www.kaggle.com/code/gpreda/credit-card-fraud-detection-predictive-models/input
+The dataset contains 284,807 transactions, including 492 fraudulent transactions (0.172% of the data). The features V1–V28 are PCA-transformed for confidentiality.
+
+## References
+The project implementation and methodology were developed using IBM SPSS Modeler. Additional inspiration and learning resources included Kaggle notebooks and fraud detection tutorials, including:
+https://www.kaggle.com/code/gpreda/credit-card-fraud-detection-predictive-models/notebook
+
+## Note
+Custom test datasets used for evaluation and experimentation were generated with AI-assisted support and are not part of the original Kaggle dataset.
+
+For project evaluation and experimentation, custom test datasets were generated with AI-assisted support to simulate additional transaction scenarios.
 
 Technologies Used
 IBM SPSS Modeler
